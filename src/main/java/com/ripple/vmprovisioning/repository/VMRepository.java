@@ -8,5 +8,5 @@ import java.util.Optional;
 
 @Repository
 public interface VMRepository extends JpaRepository<VMDetails, Long> {
-   // Optional<VMDetails> findAllVMs();
+   
 }
